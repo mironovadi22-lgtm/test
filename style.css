@@ -183,6 +183,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 10px;
     
 }
 .about__content-text-text {
@@ -475,4 +476,286 @@ body {
     font-size: 16px;
     color: #645C55;
 
+}
+
+.Featured {
+    background-color: #F7F7F7;
+}
+
+.Featured__inner {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 120px;
+}
+
+.Featured__info {
+    margin-bottom: 42px;
+    gap: 15px;
+
+}
+
+.Featured__info-title {
+    font-size: 39px;
+    color: #1B1A1A;
+    font-weight: 400;
+
+}
+
+.Featured__info-text {
+    font-size: 24px;
+    color: #645C55;
+    max-width: 581px;
+    
+
+}
+
+.Featured__images {
+    display: flex;
+    max-width: 1168px;
+    gap: 16px;
+    justify-content: space-between;
+    margin-bottom: 51px;
+
+    
+}
+
+.Featured__images-windows {
+    width: 100%;
+}
+
+.Featured__images-building-photo {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Featured__images-text {
+    background: url("./images/news-brewery.jpg") no-repeat center center / cover;
+    width: 100%;
+    
+}
+
+.Featured__images-text-subtitle {
+    font-size: 14px;
+    color: #645C55;
+    font-weight: 400;
+
+}
+
+.Featured__images-text-title {
+    font-size: 23px;
+    color: #403E3B;
+    font-weight: 400;
+    margin-bottom: 280px;
+
+}
+
+.Featured__images-building {
+    width: 100%;
+}
+
+
+.Featured__button {
+    border: none;
+    background-color: #1B1A1A;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border: 1px solid #1b1a1a00;
+    border-radius: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.Featured__button:hover {
+    background-color: #fff;
+    color: #1B1A1A;
+    border-color: #1B1A1A;
+}
+
+
+
+.Featured__link{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 11px 20px;
+    align-self: center;
+    border: 1px solid transparent;
+}
+
+.Featured__link:hover {
+
+    border-color: #403E3B;
+}
+
+.Featured__link-text {
+    color: #1B1A1A;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+
+.team {
+
+}
+
+.team__inner {
+    display: flex;
+    gap: 16px;
+    padding: 100px 136px
+}
+
+.team__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 378px;
+}
+
+.team__info-content {
+    
+}
+
+.team__info-title {
+    font-size: 32px;
+    color: #403E3B;
+    font-weight: 400;
+    margin-bottom: 14px;
+
+}
+
+.team__info-text {
+    font-size: 15px;
+    color: #645C55;
+    margin-bottom: 41px;
+
+
+}
+
+.team__info-link {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 11px 20px;
+    border: 1px solid transparent;
+
+}
+
+.tean__info-link:hover {
+
+    border-color: #403E3B;
+}
+
+.team__info-link-text {
+    color: #1B1A1A;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.team__info-partner {
+    display: flex;
+    justify-content: space-around;
+    max-width: 773px;
+    padding: 8px 0px;
+    width: 100%;
+}
+
+.team__info-partner-one {
+    display: flex;
+    flex-direction: column;
+    gap: 44px
+    
+}
+
+
+.team__info-person-two {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.team__info-partners {
+
+}
+
+.team__info-partners-name {
+    font-size: 17px;
+    color: #1B1A1A;
+
+
+}
+
+.team__info-partners-job {
+    font-size: 14px;
+    color: #645C55;
+
+}
+
+
+.team__info-person-three {
+    display: flex;
+    flex-direction: column;
+    gap: 44px
+}
+
+.team__info-person-four {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact {
+    background-color: #CEC4BC;
+}
+
+.contact__inner {
+    display: flex;
+    align-items: center;
+    max-width: 1168px;
+    justify-content: space-between;
+    padding: 100px 136px;
+    
+}
+
+.contact__left {
+    max-width: 576px;
+}
+
+.contact__left-subtitle {
+    font-size: 14px;
+    color: #645C55;
+    text-transform: uppercase;
+
+}
+
+.contact__left-text {
+    font-size: 40px;
+    color: #1B1A1A;
+    font-weight: 400;
+}
+
+.contact__right-link {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 11px 20px;
+    border: 1px solid transparent;
+
+}
+
+.contact__right-link:hover {
+    border-color: #403E3B;
+}
+
+.contact__right-subtitle-link {
+    color: #1B1A1A;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
 }
