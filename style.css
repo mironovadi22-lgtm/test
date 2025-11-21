@@ -167,6 +167,7 @@ body {
 .about__inner {
     display: flex;
     justify-content: space-between;
+    gap: 133px;
 }
 
 
@@ -252,6 +253,7 @@ body {
 .process__inner {
     display: flex;
     flex-direction: column;
+    margin-bottom: 100px;
 }
 
 .process__title {
@@ -351,4 +353,126 @@ body {
     
 }
 
+.marble-staircase {
+    background: url("./images/news-staircase-ladder.jpg") no-repeat center center / cover;
+    padding-right: 75px;
+}
 
+
+.marble-staircase__inner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 600px;
+}
+
+.marble-staircase__info {
+    max-width: 285px;
+
+}
+
+.marble-staircase__info-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #403E3B;
+    font-weight: 400;
+
+}
+
+.marble-staircase__info-text {
+    font-size: 16px;
+    color: #645C55;
+
+    
+}
+
+
+.clients {
+    background-color: #403E3B;
+}
+
+.clients__inner {
+    display: flex;
+    align-items: center;
+    padding: 60px 136px;
+    gap: 132px;
+
+}
+
+.clients__info {
+    max-width: 460px;
+}
+
+.clients__info-subtitle {
+    font-size: 14px;
+    color: #ECE7E4;
+    text-transform: uppercase;
+}
+
+.clients__info-title {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.clients__info-text {
+    font-size: 15px;
+    color: #ECE7E4;
+}
+
+.clients__logo {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+    max-width: 432px;
+}
+
+
+.clients__logo-client-one {
+    display: flex;
+    gap: 96px;
+}
+
+.clients__logo-client-two {
+
+}
+
+.clients__logo-client-three {
+    display: flex;
+    gap: 96px;
+}
+
+.clients__logo-client-four {
+
+}
+
+
+.swirling-staircase {
+    background: url("./images/news-swirling-staircase.jpg") no-repeat center center / cover;
+    padding-left: 75px;
+}
+
+.swirling-staircase__inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 600px;
+}
+
+.swirling-staircase__info {
+    max-width: 285px;
+}
+
+.swirling-staircase__info-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #403E3B;
+    font-weight: 400;
+
+}
+
+.swirling-staircase__info-text {
+    font-size: 16px;
+    color: #645C55;
+
+}
