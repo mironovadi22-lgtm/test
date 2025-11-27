@@ -25,6 +25,8 @@ burgerMenuItemsArr.forEach(item => {
 
 let isBurgerMenuClose = true
 
+
+
 function burgerTrigger() {
    if (isBurgerMenuClose) {
       burgerButton.src = './images/Cross.svg'
@@ -34,3 +36,6 @@ function burgerTrigger() {
    isBurgerMenuClose = !isBurgerMenuClose
    burgerListMenu.classList.toggle("header__right_active")
 }
+
+
+const h1 = document.createElement("h1")
