@@ -100,7 +100,7 @@ body {
 }
 
 .header__inner-mobile .header__right {
-    height: 100vh;
+    height: 100dvh;
     position: fixed;
     top: 0;
     left: 0;
@@ -1038,21 +1038,50 @@ body {
         font-size: 13px;
     }
 
-    .team__inner, .contact__inner {
-        padding: 70px 15px;
+    .team__info-partner {
+        flex-direction: column;
     }
 
     .team__info-partner-one {
-        gap: 20px;
+        gap: 10px;
     }
 
-    .team__info-partner-three {
-        gap: 30px;
+    .team__info-person-three {
+        gap: 10px;
+    }
+
+    .team__inner {
+        padding: 50px 15px;
     }
 
     .header__button {
         border-radius: unset;
         width: 100%;
+    }
+
+    .Featured__inner {
+        padding: 40px 30px;
+    }
+
+    .Featured__images-text-title {
+        font-size: 17px;
+    }
+
+    .Featured__button {
+        padding: 0px 15px;
+        font-size: 13px;
+    }
+
+    .Featured__info-title {
+        font-size: 30px;
+    }
+
+    .Featured__info-text {
+        font-size: 15px;
+    }
+
+    .contact__inner {
+        padding: 46px 12px
     }
 
 }
@@ -1073,7 +1102,6 @@ body {
 
     .clients__logo-client {
         flex-direction: column;
-    
     }
 
     .Featured__inner {
